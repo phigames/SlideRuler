@@ -1,0 +1,96 @@
+html, body {
+    font-family: 'Century Schoolbook', serif;
+    text-align: center;
+}
+
+#header {
+    margin-bottom: 50px;
+}
+
+#content {
+    position: relative;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 10px;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#crown {
+    position: relative;
+    left: 60px;
+    top: 30px;
+    transform: rotate(10deg);
+}
+
+.math {
+    font-size: 35px;
+}
+
+#question {
+    height: 100px;
+}
+
+#solution {
+    height: 30px;
+    font-family: 'Century Schoolbook', serif;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 2px 0;
+}
+
+#submit {
+    height: 35px;
+    font-family: 'Century Schoolbook', serif;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+    margin: 0;
+}
+
+#timer {
+    font-size: 40px;
+    padding: 10px;
+}
+
+#settings {
+    margin-bottom: 20px;
+}
+
+#times {
+    margin: 10px auto 0 auto;
+    border: solid black 1px;
+}
+
+.time-index {
+    font-style: italic;
+}
+
+.time {
+
+}
+
+#average-time {
+    border-top: solid black 2px;
+}

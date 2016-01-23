@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+    <title>SlideRuler</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="fav.png">
+    <script async src="main.dart" type="application/dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+</head>
+
+<body>
+    <div id="header">
+        <img id="crown" src="crown.png">
+        <h1>SlideRuler v0.1</h1>
+        <h2>Up your slide ruling skills!</h2>
+    </div>
+    <div id="content">
+        <div id="problem">
+            <p>Your problem:</p>
+            <p id="question" class="math">Press [SPACE] to start</p>
+        </div>
+        <div id="input">
+            <input id="solution" type="text" placeholder="Solution" pattern="(\+|-)*([0-9]+\.*[0-9]*|\.[0-9]+)" autocomplete="off">
+            <input id="submit" type="button" value="Submit">
+        </div>
+        <div id="timer">00:00:00</div>
+        <div id="settings">
+            <input id="fraction" type="checkbox"><label for="fraction">Fraction</label>
+            <input id="powers" type="checkbox"><label for="powers">Powers</label>
+            <input id="roots" type="checkbox"><label for="roots">Square roots</label>
+        </div>
+        Your times:
+        <table id="times">
+            <tr id="average">
+                <td class="time-index">Avg</td>
+                <td id="average-time" class="time">(no data yet)</td>
+            </tr>
+        </table>
+    </div>
+    <div id="footer">
+        A project by <a href="https://github.com/phigames"><b>phi</b></a> | powered by <a href="https://www.dartlang.org/"><b>Dart</b></a> and <a href="https://www.mathjax.org/"><b>MathJax</b></a>
+    </div>
+</body>
+</html>
